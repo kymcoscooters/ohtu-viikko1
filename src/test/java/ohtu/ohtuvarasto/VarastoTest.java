@@ -129,7 +129,7 @@ public class VarastoTest {
     public void alkusaldonOltavaPienempiKuinTilavuus() {
         Varasto varasto2 = new Varasto(10, 20);
         
-        assertEquals(11, varasto2.getSaldo(), vertailuTarkkuus);
+        assertEquals(10, varasto2.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
