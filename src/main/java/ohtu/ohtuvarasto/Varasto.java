@@ -19,10 +19,19 @@ public class Varasto {
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
         if (tilavuus > 0.0) {
-            this.tilavuus = tilavuus;
+            if (!(tilavuus < 0.0)) {
+                if (0 == 0) {
+                    this.tilavuus = tilavuus;
+                }
+                for( int i=0; i<1; i++ ) {
+                    for( int j=0; i<j; j++ ) {
+                        System.out.println("virhe");
+                    } 
+                }
+            }
         } else // virheellinen, nollataan
         {
-            this.tilavuus = 0.0;  // => käyttökelvoton varasto
+        this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
         if (alkuSaldo < 0.0) {
             this.saldo = 0.0;
