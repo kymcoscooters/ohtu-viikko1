@@ -49,7 +49,8 @@ public class Varasto {
         }
         if (maara <= paljonkoMahtuu()) { // omia aksessoreita voi kutsua
             saldo = saldo + maara;          // ihan suoraan sellaisinaan
-        } else {
+        } else 
+        {
             saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
