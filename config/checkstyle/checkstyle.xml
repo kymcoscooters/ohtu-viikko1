@@ -16,5 +16,5 @@
 	    <property name="max" value="3"/>
 	</module>
     </module>
-
+    <property name="severity" value="warning"/>
 </module>
